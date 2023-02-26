@@ -28,36 +28,202 @@ Presentation
         onTriggered: nextSlide()
     }
 
-    Slide {
-
+   Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
-            id: background
-            source: "squid.png"
-            width: 200; height: 200
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            id: background1
+            source: "cal-01.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
-        Text {
-            anchors.horizontalCenter: background.horizontalCenter
-            anchors.top: background.bottom
-            text: "This is a customizable QML slideshow.<br/>"+
-                  "Distributions should provide their own slideshow and list it in <br/>"+
-                  "their custom branding.desc file.<br/>"+
-                  "To create a Calamares presentation in QML, import calamares.slideshow,<br/>"+
-                  "define a Presentation element with as many Slide elements as needed."
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
+
+    }
+
+   Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background2
+            source: "cal-11.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
+
+    }
+
+   Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background3
+            source: "cal-02.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+   Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background4
+            source: "cal-03.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
     }
 
     Slide {
-        centeredText: qsTr("This is a second Slide element.")
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background5
+            source: "cal-09.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
     }
 
     Slide {
-        centeredText: qsTr("This is a third Slide element.")
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background6
+            source: "cal-04.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
     }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background7
+            source: "cal-07.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background8
+            source: "cal-05.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background9
+            source: "cal-08.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background10
+            source: "cal-10.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background11
+            source: "cal-06.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background12
+            source: "cal-12.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background13
+            source: "cal-13.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background14
+            source: "cal-14.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
+
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
