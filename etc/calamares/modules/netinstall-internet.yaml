@@ -1,9 +1,9 @@
 
 - name: "Browsers"
   description: "Browsers"
+  critical: false
   hidden: false
   selected: false
-  critical: false
   expanded: true
   packages:
     - chromium
@@ -13,9 +13,9 @@
     - firefox-dark-reader
 - name: "Downloaders"
   description: "Downloaders"
+  critical: false
   hidden: false
   selected: false
-  critical: false
   expanded: true
   packages:
     - qbittorrent
