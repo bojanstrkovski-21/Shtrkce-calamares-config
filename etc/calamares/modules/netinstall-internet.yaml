@@ -11,4 +11,12 @@
     - firefox-ublock-origin
     - firefox-adblock-plus
     - firefox-dark-reader
+
+- name: "Downloaders"
+  description: "Downloaders"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:  
     - qbittorrent
