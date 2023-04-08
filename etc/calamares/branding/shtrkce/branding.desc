@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         shtrkce
-    #shortProductName:    shtrkce
+    productName:         Arch-Boki
+    #shortProductName:    Arch-Boki
     version:             2023.4-1
     shortVersion:        2023.4
-    versionedName:       shtrkce
-    #shortVersionedName:  FancyGL 2020.2
-    bootloaderEntryName: shtrkce
+    versionedName:       Arch-Boki
+    #shortVersionedName:  Arch-Boki
+    bootloaderEntryName: Arch-Boki
     #productUrl:          https://calamares.io/
     #supportUrl:          https://github.com/calamares/calamares/wiki
     #knownIssuesUrl:      https://github.com/calamares/calamares/issues
